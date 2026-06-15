@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Training Artifacts
+tmp_trainer/
+social_model/
+checkpoints/
+checkpoint-*/
+
+# Datasets
+data/
+
+# Notebooks
+notebooks/
+
+# Temporary Uploaded Images
+temp_*.jpg
+temp_*.jpeg
+temp_*.png
+temp_*.webp
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+
+# Hugging Face Cache
+.cache/
+huggingface/
+
+# Model Training Outputs
+runs/
+wandb/
+
+# Keep the deployed model
+!models/
+!models/social_media_transformer/
+!models/social_media_transformer/config.json
+!models/social_media_transformer/model.safetensors
+!models/social_media_transformer/tokenizer.json
+!models/social_media_transformer/tokenizer_config.json
